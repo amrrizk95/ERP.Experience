@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.Experience.Dashboard", "ERP.Experience.Dashboard\ERP.Experience.Dashboard.csproj", "{8BED5E6D-A30C-4784-9199-5720F63BD34E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ERP.Experience.Dashboard", "ERP.Experience.Dashboard\ERP.Experience.Dashboard.csproj", "{8BED5E6D-A30C-4784-9199-5720F63BD34E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.Experience.Mobile", "ERP.Experience.Mobile\ERP.Experience.Mobile.csproj", "{E4568795-94FB-4D55-BF44-FA1D69620204}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ERP.Experience.Mobile", "ERP.Experience.Mobile\ERP.Experience.Mobile.csproj", "{E4568795-94FB-4D55-BF44-FA1D69620204}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Submodules", "Submodules", "{8C5B48D5-2E70-45BD-9BD5-ADA100A32D50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{F25366CB-1D12-471C-97D4-FEF08CE830E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ERP.Shared", "..\ERP.Shared\ERP.Shared\ERP.Shared.csproj", "{934309C1-2E2C-477C-A8CA-15D13C1CBD3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +27,17 @@ Global
 		{E4568795-94FB-4D55-BF44-FA1D69620204}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4568795-94FB-4D55-BF44-FA1D69620204}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4568795-94FB-4D55-BF44-FA1D69620204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{934309C1-2E2C-477C-A8CA-15D13C1CBD3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{934309C1-2E2C-477C-A8CA-15D13C1CBD3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{934309C1-2E2C-477C-A8CA-15D13C1CBD3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{934309C1-2E2C-477C-A8CA-15D13C1CBD3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F25366CB-1D12-471C-97D4-FEF08CE830E5} = {8C5B48D5-2E70-45BD-9BD5-ADA100A32D50}
+		{934309C1-2E2C-477C-A8CA-15D13C1CBD3C} = {F25366CB-1D12-471C-97D4-FEF08CE830E5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {25C95724-49F7-49FF-ADD7-233CE032D2C2}
